@@ -1,8 +1,8 @@
-const graphql = require('grphql');
+const graphql = require('graphql');
 const {
   GraphQLObjectType,
   GraphQLString
-} = grphql;
+} = graphql;
 
 
 const UserType = new GraphQLObjectType({
